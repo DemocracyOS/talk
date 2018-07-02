@@ -4,7 +4,7 @@
 }
 
 .talk-slot-comment-author-name{
-    font-size: .8em;
+    font-size: .9em;
     font-weight: 700;
 }
 
@@ -28,8 +28,17 @@
     padding-top: 15px;
     padding-bottom: 20px;
 }
+
+.talk-stream-comment-wrapper{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.Comment__rootLevel0___1rJSw{
+    border:0;
+}
 /*
-.topic-article-content {
+.talk-embed-stream {
     max-width: 848px;
     margin: 0 auto;
     padding-left: 15px;
