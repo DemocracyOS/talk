@@ -1,6 +1,23 @@
-.body{
+#talk-embed-stream-container{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 800px) {
+    #talk-embed-stream-container{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+.coral_talk_stream_iframe{
+    width:inherit !important;
+}
+div#coral_talk_stream{
     font-family: 'Open Sans',sans-serif;
-    font-size: .875em;
+    font-size: .9em;
 }
 
 .talk-slot-comment-author-name{
@@ -24,7 +41,7 @@
   color: #a5ca5a;
 }*/
 
-.talk-stream-comment-content .talk-slot-comment-content{
+.talk-stream-comment-content{
     padding-top: 15px;
     padding-bottom: 20px;
 }
@@ -36,6 +53,18 @@
 
 .Comment__rootLevel0___1rJSw{
     border:0;
+}
+
+.talk-tab-bar{
+    margin: 0 0 15px 0;
+}
+
+.talk-stream-comment-container, .Comment__rootLevel0___1rJSw:first-child {
+    padding:10px;
+}
+
+.talk-stream-comment-actions-container{
+    padding-top:20px;
 }
 /*
 .talk-embed-stream {
